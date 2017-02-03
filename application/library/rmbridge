@@ -1,0 +1,15 @@
+local LibRmBridge = Class("rmbridge")
+
+function LibRmBridge:__construct( data )
+    print_r('===============init bbb=========')
+    self.lib = 'LibRmBridge---------------xxx' .. data.info
+    -- self.a = 'ppp'
+end
+
+function LibRmBridge:send()
+	
+    local params = params or { lib_bb = 'idevzDo LibBb'}
+    return params
+end
+
+return LibRmBridge
